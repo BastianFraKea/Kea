@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1601 900">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #999;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #b3b3b3;
+      }
+
+      .cls-3 {
+        fill: #f2f2f2;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        fill: #223988;
+        opacity: .04;
+      }
+
+      .cls-6 {
+        fill: #4d4d4d;
+      }
+
+      .cls-7 {
+        fill: gray;
+      }
+
+      .cls-8 {
+        fill: #fbb03b;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-8" x="1.5" y=".5" width="1599" height="253"/>
+    <path class="cls-5" d="m1600,1v252H2V1h1598M1601,0H1v254h1600V0h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-7" x="1.5" y="103.5" width="1599" height="123"/>
+    <path class="cls-5" d="m1600,104v122H2v-122h1598m1-1H1v124h1600v-124h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-6" x="1.5" y="227.5" width="1599" height="15"/>
+    <path class="cls-5" d="m1600,228v14H2v-14h1598m1-1H1v16h1600v-16h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-7" x="1.5" y="243.5" width="1599" height="142"/>
+    <path class="cls-5" d="m1600,244v141H2v-141h1598m1-1H1v143h1600v-143h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-6" x="1.5" y="386.5" width="1599" height="25"/>
+    <path class="cls-5" d="m1600,387v24H2v-24h1598m1-1H1v26h1600v-26h0Z"/>
+  </g>
+  <rect class="cls-2" x=".5" y="411.5" width="1600" height="360"/>
+  <rect class="cls-1" x=".5" y="771.5" width="1600" height="128"/>
+  <polygon class="cls-3" points="339.5 584.5 151.5 584.5 159.5 531.5 332.5 531.5 339.5 584.5"/>
+  <polygon class="cls-3" points="716.5 585.5 528.5 585.5 534.5 532.5 709.5 532.5 716.5 585.5"/>
+  <polygon class="cls-3" points="1087.64 584.5 899.64 584.5 905.64 531.5 1080.64 531.5 1087.64 584.5"/>
+  <polygon class="cls-3" points="1488.07 585.5 1300.07 585.5 1306.07 532.5 1481.07 532.5 1488.07 585.5"/>
+  <rect class="cls-4" x=".5" y=".5" width="1600" height="899"/>
+</svg>

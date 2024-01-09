@@ -1,0 +1,248 @@
+#screen {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-color: red;
+  overflow: hidden;
+}
+
+#game {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+#game_background {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: bisque;
+  background-image: url(../assets/baggrund.svg);
+  background-size: cover;
+}
+#game_elements {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+/* Spilelementer og mellemgrund */
+
+#devil_container {
+  position: absolute;
+  width: 14%;
+  aspect-ratio: 251/250;
+  transform-origin: center 95%;
+}
+
+#devil_sprite {
+  width: 120%;
+  height: 120%;
+  background-image: url(../assets/djævel-01.svg);
+  background-size: cover;
+  top: 100%;
+}
+
+#pindsvin_container {
+  position: absolute;
+  width: 18%;
+  aspect-ratio: 7/8;
+  transform-origin: center 95%;
+}
+
+#pindsvin_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/pindsvin1.svg);
+  background-size: cover;
+}
+
+.pos1 {
+  top: 17%;
+  left: 0%;
+}
+.pos2 {
+  top: 15%;
+  left: 0%;
+}
+.pos3 {
+  top: 12%;
+  left: 0%;
+}
+.pos4 {
+  top: 19%;
+  left: 0%;
+}
+.pos5 {
+  top: 12%;
+  left: 0%;
+}
+.pos6 {
+  top: 18%;
+  left: 0%;
+}
+.pos7 {
+  top: 16%;
+  left: 0%;
+}
+.pos8 {
+  top: 4%;
+  left: 0%;
+}
+.pos9 {
+  top: 13%;
+  left: 0%;
+}
+.pos10 {
+  top: 14%;
+  left: 0%;
+}
+
+.posFall1 {
+  top: -40%;
+  left: 15%;
+}
+.posFall2 {
+  top: -40%;
+  left: 35%;
+}
+.posFall3 {
+  top: -40%;
+  left: 55%;
+}
+.posFall4 {
+  top: -40%;
+  left: 75%;
+}
+.posFall5 {
+  top: -40%;
+  left: 85%;
+}
+
+#mellemgrund {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  width: 100%;
+  height: 50%;
+  background-image: url(../assets/bus5c.svg);
+  background-size: cover;
+  pointer-events: none;
+  animation-name: bus_kf;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#game_ui {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+#score_board {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  top: 64.6%;
+  left: 7%;
+  width: 28%;
+  aspect-ratio: 8/3;
+  background-image: url(../assets/point_nøgen.svg);
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#mine_points {
+  font-size: 3rem;
+  font-family: sans-serif;
+  color: green;
+}
+#energy_board {
+  position: absolute;
+  top: 80%;
+  left: 0%;
+  width: 36%;
+  aspect-ratio: 3/1;
+  background-image: url(../assets/liv_nøgen.svg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mine_liv {
+  font-size: 3rem;
+  font-family: sans-serif;
+  color: lightblue;
+}
+
+#time_board {
+  position: absolute;
+  top: 64%;
+  left: 1%;
+  width: 6%;
+  aspect-ratio: 100/160;
+  background-image: url(../img/ui_time.svg);
+  background-size: cover;
+}
+#start {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/start.svg);
+  background-size: cover;
+}
+#play {
+  position: absolute;
+  width: 20%;
+  left: 37%;
+  top: 56%;
+  aspect-ratio: 470/280;
+  background-image: url("../assets/play_btn.svg");
+  background-size: cover;
+}
+#play:hover {
+  width: 22%;
+  left: 36%;
+  top: 54%;
+}
+#game_over {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/taber.svg);
+  background-size: cover;
+}
+#play_again_1,
+#play_again_2 {
+  position: absolute;
+  width: 30%;
+  aspect-ratio: 166/93;
+  background-image: url(../assets/play_btn\ [Recovered].svg);
+  background-size: cover;
+  top: 70%;
+  left: 70%;
+}
+
+#level_complete {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/Vinderskærm.svg);
+  background-size: cover;
+}

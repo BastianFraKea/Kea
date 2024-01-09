@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 694.73 250">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: BMDoHyeon-OTF-KSCpc-EUC-H, 'BM Dohyeon';
+        font-size: 72px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #494b9a;
+      }
+    </style>
+  </defs>
+  <g id="Play_Knap" data-name="Play Knap">
+    <path class="cls-2" d="m50,17.68h386.73c13.66,0,24.74,10.12,24.74,22.6v187.12c0,12.48-11.08,22.6-24.74,22.6H50c-13.66,0-24.74-10.12-24.74-22.6V40.28c0-12.48,11.08-22.6,24.74-22.6Z"/>
+    <path class="cls-3" d="m24.74,0h386.73c13.66,0,24.74,9.58,24.74,21.4v177.2c0,11.82-11.08,21.4-24.74,21.4H24.74c-13.66,0-24.74-9.58-24.74-21.4V21.4C0,9.58,11.08,0,24.74,0Z"/>
+  </g>
+  <text class="cls-1" transform="translate(34 133.84)"><tspan x="0" y="0">SPIL IGEN</tspan></text>
+</svg>
